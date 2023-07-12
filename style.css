@@ -30,6 +30,63 @@ header h2 {
     margin-left: 10px;
 }
 
+header a {
+    text-decoration: none;
+    color: #242424;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+main section {
+    width: 35vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+figure {
+    height: 45vh;
+
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    height: 19vh;
+    justify-content: space-around;
+}
+
+h1 {
+    width: 35vw;
+}
+
+button {
+    background-color: #FCA60F;
+    width: 19vw;
+    height: 8vh;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+
+main nav {
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+
+
+}
+
 @media (max-width: 500px) {
     header{
         flex-direction: column;
@@ -40,7 +97,34 @@ header h2 {
         width: 90vw;
     }
 
-    
+    main section {
+        width: 100vw;
+        align-items: center;
+    }
+
+    figure {
+        display: none;
+    }
+
+    h1 {
+        width: 85vw;
+        text-align: center;
+    }
+
+    button {
+        width: 70vw;
+        font-size: 22px;
+    }
+
+    main div {
+        width: 45 vw;
+        align-items: center;
+        height: 35vh;
+    }
+
+    main nav {
+        width:50 vw; 
+    }
 
 
 }
